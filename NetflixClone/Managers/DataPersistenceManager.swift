@@ -66,7 +66,6 @@ class DataPersistenceManager {
         }
         
         let context = appDelegate.persistentContainer.viewContext
-        
         context.delete(model)
         
         do {
